@@ -1,0 +1,50 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1.6) {
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin: 0 auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+
+// Breakpoints
+@mixin breakpoint($point) {
+  @if $point == lt-tablet {
+    @media all and (max-width: 767px) { @content; }
+  }
+  @if $point == tablet {
+    @media all and (min-width: 768px) { @content; }
+  }
+  @if $point == lt-desktop {
+    @media all and (max-width: 979px) { @content; }
+  }
+  @else if $point == desktop {
+    @media all and (min-width: 980px) { @content; }
+  }
+
+}
+
+
+// Vendor Prefixes - from: http://www.stefanwienert.de/blog/2012/05/18/easy-css-vendor-prefix-mixin-for-sass/
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
