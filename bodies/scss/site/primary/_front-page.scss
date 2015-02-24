@@ -1,0 +1,12 @@
+
+body {
+	  background-color: #222; 
+	  
+ 	@include breakpoint(tablet) {
+ 		background-color: #fff; 
+ 	} 
+
+ 	@include breakpoint(desktop) {
+		background-color: #f2f; 
+ 	}
+}      
