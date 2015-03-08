@@ -81,10 +81,7 @@
 	
 }
 
-
-#seduce{
-
-}
+/*SLIDER*/
 
 #seduce{
   height: 100vh;
@@ -104,49 +101,8 @@
 .slider{
   min-height: 80vh;
   background: url('../img/sliderBG.png') no-repeat;
-  background-size: cover;
-  background-position: -19em 1em;
-
-	.slides li{
-		position: absolute !important ;
-		
-		img{
-		  position: relative;
-		  top: 4.5em !important;
-		}
-	}
-
-}
-
-
-
-
-
-// slider 
-
-
-
-
-#seduce{
-  height: 100vh;
-  overflow: hidden;
-
-	.textarea{
-	  
-	  height: 20vh;
-	  margin: 0;
-	  width: 100%; 
-	  text-align: center;
-	  position: inherit;
-	  font-family: 'mesmerize';
-	}
-}
-
-.slider{
-  min-height: 80vh;
-  background: url('../img/sliderBG.png') no-repeat;
-  background-size: cover;
-  background-position: -19em 1em;
+  background-size: initial;
+  background-position: -12em 4.6em;
 
 	.slides li{
 		position: absolute !important ;
