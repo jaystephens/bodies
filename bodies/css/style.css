@@ -1,228 +1,76 @@
-/*--------------------------------------------------------------
-10.1 Posts and pages
---------------------------------------------------------------*/
-.burger {
-  background-image: url("../img/burger.png");
-  position: relative;
-  width: 31px;
-  height: 29px;
-  left: 10px;
-  top: 20px;
-  z-index: 100; }
+/*
+Error: Invalid CSS after "...> origin/master": expected "{", was ";"
+        on line 184 of /Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/site/primary/_posts-and-pages.scss
+        from line 8 of /Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/site/_site.scss
+        from line 3 of /Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/style.scss
 
-.mobile-menu {
-  position: absolute;
-  top: 25%;
-  background-color: rgba(255, 255, 255, 0.9);
-  left: -500px;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
-  width: 100%;
-  font-family: mesmerize;
-  color: #eb37fb;
-  z-index: 200; }
-  .mobile-menu ul li {
-    text-transform: uppercase;
-    line-height: 30px;
-    font-size: 0.8em;
-    text-shadow: 0.5px 0.5px #ff0000; }
+179: 		}
+180: 	}
+181: 
+182: }
+183: ======= 
+184: >>>>>>> origin/master;
 
-.menu-on {
-  left: 0; }
-
-.about-face {
-  background-image: url("../img/about-face.png");
-  width: 40%;
-  height: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 60%;
-  top: 25%; }
-
-.about .mobile-menu, .endo-page .mobile-menu {
-  top: 50px; }
-
-.textarea {
-  position: relative;
-  top: 200px;
-  left: 20px;
-  width: 50%; }
-  .textarea h1 {
-    text-align: center;
-    font-family: mesmerizesb;
-    border-bottom: 1px solid #000; }
-  .textarea span {
-    color: #8F0289; }
-
-.about-page {
-  overflow-y: hidden; }
-
-.endo-page {
-  overflow-x: hidden; }
-
-.endo-body {
-  background-image: url("../img/endo-body.png");
-  width: 80%;
-  height: 80%;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 25%;
-  top: 90%; }
-
-.endo .textarea {
-  top: 10px;
-  width: 80%; }
-.endo p span {
-  font-family: mesmerizelight;
-  font-size: 1.2em;
-  color: #000; }
-.endo h1 {
-  text-align: left;
-  text-transform: uppercase;
-  border: none;
-  margin-bottom: 0; }
-  .endo h1 span {
-    color: #f5d522;
-    font-family: mesmerizescondensed;
-    font-size: 1.2em; }
-.endo h2 {
-  border-bottom: 1px solid #000;
-  color: #84266c;
-  font-size: 0.9em;
-  font-family: mesmerizeslight-it; }
-
-#seduce {
-  height: 100vh;
-  overflow: hidden; }
-  #seduce .textarea {
-    height: 20vh;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    position: inherit;
-    font-family: 'mesmerize'; }
-
-.slider {
-  min-height: 80vh;
-  background: url("../img/sliderBG.png") no-repeat;
-  background-size: cover;
-  background-position: -19em 1em; }
-  .slider .slides li {
-    position: absolute !important; }
-    .slider .slides li img {
-      position: relative;
-      top: 4.5em !important; }
-
-.seductive-page h1 {
-  font-family: mesmerizescondensed;
-  font-size: 3em;
-  border-bottom: none;
-  margin: 0;
-  color: #8f0289; }
-  .seductive-page h1 span {
-    font-family: Bodoni;
-    color: #f5d522;
-    font-size: 1.5em; }
-.seductive-page h2 {
-  font-family: mesmerizeslight-it;
-  font-size: 1.2em;
-  margin: 0;
-  color: #8f0289; }
-
-#seduce {
-  height: 100vh;
-  overflow: hidden; }
-  #seduce .textarea {
-    height: 20vh;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    position: inherit;
-    font-family: 'mesmerize'; }
-
-.slider {
-  min-height: 80vh;
-  background: url("../img/sliderBG.png") no-repeat;
-  background-size: cover;
-  background-position: -19em 1em; }
-  .slider .slides li {
-    position: absolute !important; }
-    .slider .slides li img {
-      position: relative;
-      top: 4.5em !important; }
-
-@font-face {
-  font-family: Avenir;
-  src: url(../fonts/mesmerize/Avenir.ttc); }
-@font-face {
-  font-family: Bodoni;
-  src: url(../fonts/mesmerize/Bodoni.ttf); }
-@font-face {
-  font-family: mesmerize;
-  src: url(../fonts/mesmerize/mesmerize-el.ttf); }
-@font-face {
-  font-family: mesmerizelight;
-  src: url(../fonts/mesmerize/mesmerize-lt.ttf); }
-@font-face {
-  font-family: mesmerizesb;
-  src: url(../fonts/mesmerize/mesmerize-sb.ttf); }
-@font-face {
-  font-family: mesmerizescondensed;
-  src: url(../fonts/mesmerize/mesmerize-cd-rg.ttf); }
-@font-face {
-  font-family: mesmerizeslight-it;
-  src: url(../fonts/mesmerize/mesmerize-ex-lt-it.ttf); }
-h2 {
-  margin: 0; }
-
-a {
-  text-decoration: none;
-  color: #eb37fb; }
-
-p {
-  font-family: Avenir; }
-
-.home-background {
-  position: absolute;
-  background-image: url("../img/home-bg.png");
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  background-position: center; }
-
-.body-mobile {
-  position: absolute;
-  background-image: url("../img/body-mobile.png");
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  background-position: center; }
-
-.home h1 {
-  position: relative;
-  text-align: center;
-  font-family: mesmerize;
-  font-size: 5em;
-  color: #eb37fb;
-  top: -60px; }
-.home h3 {
-  font-size: 0.5em;
-  position: relative;
-  text-align: center;
-  font-family: mesmerize;
-  color: #470244;
-  top: -10px; }
-
-/*--------------------------------------------------------------
-10.2 Asides
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-10.3 Comments
---------------------------------------------------------------*/
+Backtrace:
+/Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/site/primary/_posts-and-pages.scss:184
+/Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/site/_site.scss:8
+/Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/style.scss:3
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1163:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1099:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1094:in `tok!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:641:in `block'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:635:in `ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:660:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:653:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:42:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:393:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:299:in `to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:315:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:404:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...> origin/master\": expected \"{\", was \";\"\A         on line 184 of /Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/site/primary/_posts-and-pages.scss\A         from line 8 of /Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/site/_site.scss\A         from line 3 of /Volumes/Secondary/James/Google Drive/School /Quarter 5 /teams/bodies/bodies/scss/style.scss\A \A 179: 		}\A 180: 	}\A 181: \A 182: }\A 183: ======= \A 184: >>>>>>> origin/master;"; }
