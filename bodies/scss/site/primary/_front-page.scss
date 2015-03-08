@@ -2,8 +2,23 @@
 //fonts 
 
 @font-face {
+    font-family: Avenir;
+    src: url(../fonts/mesmerize/Avenir.ttc);
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url(../fonts/mesmerize/Bodoni.ttf);
+}
+
+@font-face {
     font-family: mesmerize;
     src: url(../fonts/mesmerize/mesmerize-el.ttf);
+}
+
+@font-face {
+    font-family: mesmerizelight;
+    src: url(../fonts/mesmerize/mesmerize-lt.ttf);
 }
 
 @font-face {
@@ -11,9 +26,26 @@
     src: url(../fonts/mesmerize/mesmerize-sb.ttf);
 }
 
+@font-face {
+    font-family: mesmerizescondensed;
+    src: url(../fonts/mesmerize/mesmerize-cd-rg.ttf);
+}
+
+
+@font-face {
+    font-family: mesmerizeslight-it;
+    src: url(../fonts/mesmerize/mesmerize-ex-lt-it.ttf);
+}
+
+
+
 a {
 	text-decoration: none;
 	color: #eb37fb; 
+}
+
+p {
+	font-family: Avenir;
 }
 
 

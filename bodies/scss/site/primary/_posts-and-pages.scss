@@ -8,7 +8,7 @@
 	top: 25%; 
 }
 
-.about {
+.about,.endo-page {
 	.mobile-menu {
 		top: 50px; 
 	}
@@ -45,7 +45,7 @@
 	background-repeat: no-repeat; 
 	position: absolute; 
 	left: 25%; 
-	top: 80%; 
+	top: 90%; 
 }
 
 .endo {
@@ -53,4 +53,30 @@
 		top: 10px;
 		width: 80%;
 	}
+	p {
+		span {
+			font-family: mesmerizelight;
+			font-size: 1.2em;
+			color: #000;  
+		}
+	}
+	h1 {
+		text-align: left;
+		text-transform: uppercase;
+		border: none; 
+		margin-bottom: 0;  
+		span {
+			color: #f5d522; 
+			font-family: mesmerizescondensed;
+			font-size: 1.2em; 
+		}
+	}
+	h2 {
+		border-bottom: 1px solid #000;
+		color: #84266c; 
+		font-size: 0.9em;
+		font-family: mesmerizeslight-it; 
+	}
+	
+	
 }
