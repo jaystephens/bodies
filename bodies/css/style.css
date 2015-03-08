@@ -89,6 +89,12 @@
   width: 80%; }
 
 @font-face {
+  font-family: Avenir;
+  src: url(../fonts/mesmerize/Avenir.ttc); }
+@font-face {
+  font-family: Bodoni;
+  src: url(../fonts/mesmerize/Bodoni.ttf); }
+@font-face {
   font-family: mesmerize;
   src: url(../fonts/mesmerize/mesmerize-el.ttf); }
 @font-face {
@@ -97,6 +103,9 @@
 a {
   text-decoration: none;
   color: #eb37fb; }
+
+p {
+  font-family: Avenir; }
 
 .home-background {
   position: absolute;
@@ -133,22 +142,6 @@ a {
   color: #470244;
   top: -10px; }
 
-#seduce .textarea{
-  
-  height: 10vh;
-  margin: 0;
-  width: 100%; 
-  text-align: center;
-  position: inherit;
-}
-
-.slider{
-  min-height: 80vh;
-  background: url('../img/sliderBG.png') no-repeat;
-  background-size: cover;
-  background-position: -19em 1em;
-}
-}
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/

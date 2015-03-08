@@ -2,6 +2,16 @@
 //fonts 
 
 @font-face {
+    font-family: Avenir;
+    src: url(../fonts/mesmerize/Avenir.ttc);
+}
+
+@font-face {
+    font-family: Bodoni;
+    src: url(../fonts/mesmerize/Bodoni.ttf);
+}
+
+@font-face {
     font-family: mesmerize;
     src: url(../fonts/mesmerize/mesmerize-el.ttf);
 }
@@ -14,6 +24,10 @@
 a {
 	text-decoration: none;
 	color: #eb37fb; 
+}
+
+p {
+	font-family: Avenir;
 }
 
 
