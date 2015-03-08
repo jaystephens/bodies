@@ -133,13 +133,19 @@ a {
   color: #470244;
   top: -10px; }
 
+#seduce{
+  height: 100vh;
+  overflow: hidden;
+}
+
 #seduce .textarea{
   
-  height: 10vh;
+  height: 20vh;
   margin: 0;
   width: 100%; 
   text-align: center;
   position: inherit;
+  font-family: 'mesmerize';
 }
 
 .slider{
@@ -148,6 +154,14 @@ a {
   background-size: cover;
   background-position: -19em 1em;
 }
+
+.slides li{
+  position: absolute !important ;
+}
+
+.slides img{
+  position: relative;
+  top: 4.5em !important;
 }
 /*--------------------------------------------------------------
 10.2 Asides
