@@ -116,6 +116,22 @@
       position: relative;
       top: 4.5em !important; }
 
+.seductive-page h1 {
+  font-family: mesmerizescondensed;
+  font-size: 3em;
+  border-bottom: none;
+  margin: 0;
+  color: #8f0289; }
+  .seductive-page h1 span {
+    font-family: Bodoni;
+    color: #f5d522;
+    font-size: 1.5em; }
+.seductive-page h2 {
+  font-family: mesmerizeslight-it;
+  font-size: 1.2em;
+  margin: 0;
+  color: #8f0289; }
+
 #seduce {
   height: 100vh;
   overflow: hidden; }
