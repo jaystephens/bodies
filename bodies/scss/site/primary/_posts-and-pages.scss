@@ -14,7 +14,7 @@ ul,li {
 	top: 25%; 
 }
 
-.about,.endo-page,.tricks-page,.preserve-page {
+.about,.endo-page,.tricks-page,.preserve-page,.seductive-page {
 	.mobile-menu{
 		top: 50px; 
 	}
@@ -123,7 +123,9 @@ ul,li {
 
 
 .tricks-page,.preserve-page {
+	h1 {
 	padding-top: 25%; 
+	} 
 }
 
 .seductive-page,.tricks-page,.preserve-page {

@@ -46,7 +46,7 @@ ul, li {
   left: 60%;
   top: 25%; }
 
-.about .mobile-menu, .endo-page .mobile-menu, .tricks-page .mobile-menu, .preserve-page .mobile-menu {
+.about .mobile-menu, .endo-page .mobile-menu, .tricks-page .mobile-menu, .preserve-page .mobile-menu, .seductive-page .mobile-menu {
   top: 50px; }
 
 .textarea {
@@ -121,7 +121,7 @@ ul, li {
       position: relative;
       top: 4.5em !important; }
 
-.tricks-page, .preserve-page {
+.tricks-page h1, .preserve-page h1 {
   padding-top: 25%; }
 
 .seductive-page h1, .tricks-page h1, .preserve-page h1 {
