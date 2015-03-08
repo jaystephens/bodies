@@ -1,18 +1,35 @@
 
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-1.0 mixins
-2.0 content
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-1 MIXINS
---------------------------------------------------------------*/
-
 @import "mixins/mixins-master";
-
-/*--------------------------------------------------------------
-2.0 Content
---------------------------------------------------------------*/
 @import "site/site";
+
+#seduce{
+  height: 100vh;
+  overflow: hidden;
+
+	.textarea{
+	  
+	  height: 20vh;
+	  margin: 0;
+	  width: 100%; 
+	  text-align: center;
+	  position: inherit;
+	  font-family: 'mesmerize';
+	}
+}
+
+.slider{
+  min-height: 80vh;
+  background: url('../img/sliderBG.png') no-repeat;
+  background-size: cover;
+  background-position: -19em 1em;
+
+	.slides li{
+		position: absolute !important ;
+		
+		img{
+		  position: relative;
+		  top: 4.5em !important;
+		}
+	}
+
+}
