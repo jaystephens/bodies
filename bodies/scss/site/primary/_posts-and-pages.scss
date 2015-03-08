@@ -1,3 +1,9 @@
+ul,li {
+	list-style: none; 
+	padding: 0; 
+}
+
+
 .about-face {
 	background-image: url("../img/about-face.png");
 	width: 40%;
@@ -8,7 +14,7 @@
 	top: 25%; 
 }
 
-.about,.endo-page {
+.about,.endo-page,.tricks-page {
 	.mobile-menu {
 		top: 50px; 
 	}
@@ -117,7 +123,7 @@
  
 
 
-.seductive-page {
+.seductive-page,.tricks-page {
 
 	h1 {
 		font-family: mesmerizescondensed;
@@ -179,5 +185,60 @@
 		}
 	}
 
+}
+
+
+//tricks 
+
+
+.trick1 {
+	background-image: url("../img/trick1.png");
+	// position: relative;
+	width: 226px;
+	margin: 0 auto; 
+	height: 220px;  
+	margin: 0 auto; 
+	text-align: center; 
+	margin-bottom: 35px; 
+	background-repeat: no-repeat ;
+}
+
+.trick2 {
+	background-image: url("../img/trick2.png");
+	// position: relative;
+	width: 226px;
+	margin: 0 auto; 
+	height: 220px;  
+	margin-bottom: 35px; 
+	background-repeat: no-repeat ;
+}
+
+.trick3 {
+	background-image: url("../img/trick3.png");
+	// position: relative;
+	height: 220px; 
+	width: 226px;
+	margin: 0 auto; 
+	margin-bottom: 35px;  
+	background-repeat: no-repeat ;
+	padding-bottom: 100px; 
+}
+
+.tricks-imgs {
+	figcaption {
+		 padding-top: 230px; 
+		 text-align: center;
+		 font-family: Avenir;
+		 color: #8f0289; 
+		
+	}
+	
+}
+
+.tricks-page {
+	h1 {
+		padding-top: 20% ;
+	}
+	
 }
 
