@@ -251,7 +251,7 @@ ul,li {
 	background-repeat: no-repeat; 
 	position: absolute; 
 	left: 50%; 
-	top: 125%; 
+	top: 145%; 
 	margin-left: -42.5px; 
 	figcaption {
 		margin-top: 125px;
@@ -270,7 +270,15 @@ ul,li {
 	background-repeat: no-repeat; 
 	position: absolute; 
 	left: 25%; 
-	top: 150%; 
+	top: 170%; 
 	
+}
+
+.preserve-page {
+	.textarea {
+		span {
+			color: #eb37fb; 
+		}
+	}
 }
 
