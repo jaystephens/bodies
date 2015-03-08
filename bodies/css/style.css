@@ -13,14 +13,125 @@
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
-body {
-  background-color: #222; }
-  @media all and (min-width: 768px) {
-    body {
-      background-color: #fff; } }
-  @media all and (min-width: 980px) {
-    body {
-      background-color: #f2f; } }
+.burger {
+  background-image: url("../img/burger.png");
+  position: relative;
+  width: 31px;
+  height: 29px;
+  left: 10px;
+  top: 20px;
+  z-index: 100; }
+
+.mobile-menu {
+  position: absolute;
+  top: 25%;
+  background-color: rgba(255, 255, 255, 0.9);
+  left: -500px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  width: 100%;
+  font-family: mesmerize;
+  color: #eb37fb;
+  z-index: 200; }
+  .mobile-menu ul li {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 0.8em;
+    text-shadow: 0.5px 0.5px #ff0000; }
+
+.menu-on {
+  left: 0; }
+
+.about-face {
+  background-image: url("../img/about-face.png");
+  width: 40%;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 60%;
+  top: 25%; }
+
+.about .mobile-menu {
+  top: 50px; }
+
+.textarea {
+  position: relative;
+  top: 200px;
+  left: 20px;
+  width: 50%; }
+  .textarea h1 {
+    text-align: center;
+    font-family: mesmerizesb;
+    border-bottom: 1px solid #000; }
+  .textarea span {
+    color: #8F0289; }
+
+.about-page {
+  overflow-y: hidden; }
+
+.endo-page {
+  overflow-x: hidden; }
+
+.endo-body {
+  background-image: url("../img/endo-body.png");
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 25%;
+  top: 80%; }
+
+.endo .textarea {
+  top: 10px;
+  width: 80%; }
+
+@font-face {
+  font-family: mesmerize;
+  src: url(../fonts/mesmerize/mesmerize-el.ttf); }
+@font-face {
+  font-family: mesmerizesb;
+  src: url(../fonts/mesmerize/mesmerize-sb.ttf); }
+a {
+  text-decoration: none;
+  color: #eb37fb; }
+
+.home-background {
+  position: absolute;
+  background-image: url("../img/home-bg.png");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center; }
+
+.body-mobile {
+  position: absolute;
+  background-image: url("../img/body-mobile.png");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center; }
+
+.home h1 {
+  position: relative;
+  text-align: center;
+  font-family: mesmerize;
+  font-size: 5em;
+  color: #eb37fb;
+  top: -60px; }
+.home h3 {
+  font-size: 0.5em;
+  position: relative;
+  text-align: center;
+  font-family: mesmerize;
+  color: #470244;
+  top: -10px; }
 
 /*--------------------------------------------------------------
 10.2 Asides

@@ -1,0 +1,56 @@
+.about-face {
+	background-image: url("../img/about-face.png");
+	width: 40%;
+	height: 100%;
+	background-repeat: no-repeat; 
+	position: absolute; 
+	left: 60%; 
+	top: 25%; 
+}
+
+.about {
+	.mobile-menu {
+		top: 50px; 
+	}
+}
+
+.textarea {
+	position: relative;
+	top: 200px; 
+	left: 20px;  
+	h1 {
+		text-align: center;
+		font-family: mesmerizesb; 
+		border-bottom: 1px solid #000; 
+	}
+	width: 50%;
+	span {
+		color: #8F0289;
+	}
+}
+
+
+.about-page {
+	overflow-y:hidden; 
+}
+
+.endo-page {
+	overflow-x:hidden;
+}
+
+.endo-body{
+	background-image: url("../img/endo-body.png");
+	width: 80%; 
+	height: 80%;
+	background-repeat: no-repeat; 
+	position: absolute; 
+	left: 25%; 
+	top: 80%; 
+}
+
+.endo {
+	.textarea {
+		top: 10px;
+		width: 80%;
+	}
+}

@@ -1,12 +1,62 @@
 
-body {
-	  background-color: #222; 
-	  
- 	@include breakpoint(tablet) {
- 		background-color: #fff; 
- 	} 
+//fonts 
 
- 	@include breakpoint(desktop) {
-		background-color: #f2f; 
- 	}
-}      
+@font-face {
+    font-family: mesmerize;
+    src: url(../fonts/mesmerize/mesmerize-el.ttf);
+}
+
+@font-face {
+    font-family: mesmerizesb;
+    src: url(../fonts/mesmerize/mesmerize-sb.ttf);
+}
+
+a {
+	text-decoration: none;
+	color: #eb37fb; 
+}
+
+
+.home-background  {
+	position: absolute;
+	 background-image: url("../img/home-bg.png");  
+	 -webkit-background-size: cover;
+	 -o-background-size: cover; 
+	 background-size: cover; 
+	 width: 100vw;
+	 height: 100vh;
+	 background-position: center;   	
+
+}
+
+.body-mobile  {
+	position: absolute;
+	 background-image: url("../img/body-mobile.png");  
+	 -webkit-background-size: cover;
+	 -o-background-size: cover; 
+	 background-size: cover; 
+	 width: 100vw;
+	 height: 100vh;
+	 background-position: center;   	
+
+}
+
+.home {
+	h1 {
+		position: relative;
+		text-align: center;
+		font-family: mesmerize;
+		font-size: 5em;
+		color: #eb37fb;
+		top: -60px; 
+	}
+	h3 {
+		font-size: 0.5em;
+		position: relative;
+		text-align: center; 
+		font-family: mesmerize;
+		color: #470244; 
+		top: -10px; 
+	}
+}
+
