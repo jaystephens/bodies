@@ -54,7 +54,7 @@
   left: 60%;
   top: 25%; }
 
-.about .mobile-menu {
+.about .mobile-menu, .endo-page .mobile-menu {
   top: 50px; }
 
 .textarea {
@@ -82,11 +82,28 @@
   background-repeat: no-repeat;
   position: absolute;
   left: 25%;
-  top: 80%; }
+  top: 90%; }
 
 .endo .textarea {
   top: 10px;
   width: 80%; }
+.endo p span {
+  font-family: mesmerizelight;
+  font-size: 1.2em;
+  color: #000; }
+.endo h1 {
+  text-align: left;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 0; }
+  .endo h1 span {
+    color: #f5d522;
+    font-family: mesmerizescondensed;
+    font-size: 1.2em; }
+.endo h2 {
+  border-bottom: 1px solid #000;
+  color: #84266c;
+  font-size: 1.1em; }
 
 @font-face {
   font-family: Avenir;
@@ -98,8 +115,14 @@
   font-family: mesmerize;
   src: url(../fonts/mesmerize/mesmerize-el.ttf); }
 @font-face {
+  font-family: mesmerizelight;
+  src: url(../fonts/mesmerize/mesmerize-lt.ttf); }
+@font-face {
   font-family: mesmerizesb;
   src: url(../fonts/mesmerize/mesmerize-sb.ttf); }
+@font-face {
+  font-family: mesmerizescondensed;
+  src: url(../fonts/mesmerize/mesmerize-cd-rg.ttf); }
 a {
   text-decoration: none;
   color: #eb37fb; }

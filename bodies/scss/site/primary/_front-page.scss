@@ -17,9 +17,21 @@
 }
 
 @font-face {
+    font-family: mesmerizelight;
+    src: url(../fonts/mesmerize/mesmerize-lt.ttf);
+}
+
+@font-face {
     font-family: mesmerizesb;
     src: url(../fonts/mesmerize/mesmerize-sb.ttf);
 }
+
+@font-face {
+    font-family: mesmerizescondensed;
+    src: url(../fonts/mesmerize/mesmerize-cd-rg.ttf);
+}
+
+
 
 a {
 	text-decoration: none;
