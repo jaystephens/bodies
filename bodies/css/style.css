@@ -46,7 +46,7 @@ ul, li {
   left: 60%;
   top: 25%; }
 
-.about .mobile-menu, .endo-page .mobile-menu, .tricks-page .mobile-menu {
+.about .mobile-menu, .endo-page .mobile-menu, .tricks-page .mobile-menu, .preserve-page .mobile-menu {
   top: 50px; }
 
 .textarea {
@@ -121,17 +121,20 @@ ul, li {
       position: relative;
       top: 4.5em !important; }
 
-.seductive-page h1, .tricks-page h1 {
+.tricks-page, .preserve-page {
+  padding-top: 25%; }
+
+.seductive-page h1, .tricks-page h1, .preserve-page h1 {
   font-family: mesmerizescondensed;
   font-size: 3em;
   border-bottom: none;
   margin: 0;
   color: #8f0289; }
-  .seductive-page h1 span, .tricks-page h1 span {
+  .seductive-page h1 span, .tricks-page h1 span, .preserve-page h1 span {
     font-family: Bodoni;
     color: #f5d522;
     font-size: 1.5em; }
-.seductive-page h2, .tricks-page h2 {
+.seductive-page h2, .tricks-page h2, .preserve-page h2 {
   font-family: mesmerizeslight-it;
   font-size: 1.2em;
   margin: 0;
@@ -192,8 +195,29 @@ ul, li {
   font-family: Avenir;
   color: #8f0289; }
 
-.tricks-page h1 {
-  padding-top: 20%; }
+.embalming {
+  background-image: url("../img/embalming.png");
+  width: 85px;
+  height: 115px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 125%;
+  margin-left: -42.5px; }
+  .embalming figcaption {
+    margin-top: 125px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-size: 0.8em; }
+
+.preserve-body {
+  background-image: url("../img/preserve-body.png");
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 25%;
+  top: 150%; }
 
 @font-face {
   font-family: Avenir;

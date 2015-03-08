@@ -14,8 +14,8 @@ ul,li {
 	top: 25%; 
 }
 
-.about,.endo-page,.tricks-page {
-	.mobile-menu {
+.about,.endo-page,.tricks-page,.preserve-page {
+	.mobile-menu{
 		top: 50px; 
 	}
 }
@@ -120,10 +120,13 @@ ul,li {
 	}
 
 }
- 
 
 
-.seductive-page,.tricks-page {
+.tricks-page,.preserve-page {
+	padding-top: 25%; 
+}
+
+.seductive-page,.tricks-page,.preserve-page {
 
 	h1 {
 		font-family: mesmerizescondensed;
@@ -235,10 +238,37 @@ ul,li {
 	
 }
 
-.tricks-page {
-	h1 {
-		padding-top: 20% ;
+
+
+//preserve
+
+.embalming{
+	background-image: url("../img/embalming.png");
+	width: 85px; 
+	height: 115px;
+	background-repeat: no-repeat; 
+	position: absolute; 
+	left: 50%; 
+	top: 125%; 
+	margin-left: -42.5px; 
+	figcaption {
+		margin-top: 125px;
+		text-align: center;
+		border-bottom: 1px solid #000; 
+		font-size: 0.8em; 
 	}
+	
+}
+
+
+.preserve-body {
+	background-image: url("../img/preserve-body.png");
+	width: 80%; 
+	height: 80%;
+	background-repeat: no-repeat; 
+	position: absolute; 
+	left: 25%; 
+	top: 150%; 
 	
 }
 
