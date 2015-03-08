@@ -54,7 +54,7 @@
   left: 60%;
   top: 25%; }
 
-.about .mobile-menu {
+.about .mobile-menu, .endo-page .mobile-menu {
   top: 50px; }
 
 .textarea {
@@ -82,21 +82,57 @@
   background-repeat: no-repeat;
   position: absolute;
   left: 25%;
-  top: 80%; }
+  top: 90%; }
 
 .endo .textarea {
   top: 10px;
   width: 80%; }
+.endo p span {
+  font-family: mesmerizelight;
+  font-size: 1.2em;
+  color: #000; }
+.endo h1 {
+  text-align: left;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 0; }
+  .endo h1 span {
+    color: #f5d522;
+    font-family: mesmerizescondensed;
+    font-size: 1.2em; }
+.endo h2 {
+  border-bottom: 1px solid #000;
+  color: #84266c;
+  font-size: 0.9em;
+  font-family: mesmerizeslight-it; }
 
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/mesmerize/Avenir.ttc); }
+@font-face {
+  font-family: Bodoni;
+  src: url(../fonts/mesmerize/Bodoni.ttf); }
 @font-face {
   font-family: mesmerize;
   src: url(../fonts/mesmerize/mesmerize-el.ttf); }
 @font-face {
+  font-family: mesmerizelight;
+  src: url(../fonts/mesmerize/mesmerize-lt.ttf); }
+@font-face {
   font-family: mesmerizesb;
   src: url(../fonts/mesmerize/mesmerize-sb.ttf); }
+@font-face {
+  font-family: mesmerizescondensed;
+  src: url(../fonts/mesmerize/mesmerize-cd-rg.ttf); }
+@font-face {
+  font-family: mesmerizeslight-it;
+  src: url(../fonts/mesmerize/mesmerize-ex-lt-it.ttf); }
 a {
   text-decoration: none;
   color: #eb37fb; }
+
+p {
+  font-family: Avenir; }
 
 .home-background {
   position: absolute;
@@ -133,36 +169,6 @@ a {
   color: #470244;
   top: -10px; }
 
-#seduce{
-  height: 100vh;
-  overflow: hidden;
-}
-
-#seduce .textarea{
-  
-  height: 20vh;
-  margin: 0;
-  width: 100%; 
-  text-align: center;
-  position: inherit;
-  font-family: 'mesmerize';
-}
-
-.slider{
-  min-height: 80vh;
-  background: url('../img/sliderBG.png') no-repeat;
-  background-size: cover;
-  background-position: -19em 1em;
-}
-
-.slides li{
-  position: absolute !important ;
-}
-
-.slides img{
-  position: relative;
-  top: 4.5em !important;
-}
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
