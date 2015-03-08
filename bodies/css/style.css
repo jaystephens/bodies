@@ -127,6 +127,9 @@
 @font-face {
   font-family: mesmerizeslight-it;
   src: url(../fonts/mesmerize/mesmerize-ex-lt-it.ttf); }
+h2 {
+  margin: 0; }
+
 a {
   text-decoration: none;
   color: #eb37fb; }
