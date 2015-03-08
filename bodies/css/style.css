@@ -133,6 +133,21 @@ a {
   color: #470244;
   top: -10px; }
 
+#seduce .textarea{
+  
+  height: 10vh;
+  margin: 0;
+  width: 100%; 
+  text-align: center;
+}
+
+.slider{
+  min-height: 80vh;
+  background: url('../img/sliderBG.png') no-repeat;
+  background-size: cover;
+  background-position: -19em 1em;
+}
+}
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
