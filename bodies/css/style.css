@@ -74,7 +74,7 @@ ul, li {
   background-repeat: no-repeat;
   position: absolute;
   left: 25%;
-  top: 90%; }
+  top: 120%; }
 
 .endo .textarea {
   top: 10px;
@@ -202,7 +202,7 @@ ul, li {
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;
-  top: 145%;
+  top: 170%;
   margin-left: -42.5px; }
   .embalming figcaption {
     margin-top: 125px;
@@ -217,7 +217,7 @@ ul, li {
   background-repeat: no-repeat;
   position: absolute;
   left: 25%;
-  top: 170%; }
+  top: 200%; }
 
 .preserve-page .textarea span {
   color: #eb37fb; }
