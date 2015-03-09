@@ -61,10 +61,10 @@
 .home-page .menu ul {
   margin-top: -142px; }
 
-.tricks-page .bodies-header {
+.tricks-page .bodies-header, .endo-page .bodies-header, .preserve-page .bodies-header {
   display: none; }
   @media all and (min-width: 768px) {
-    .tricks-page .bodies-header {
+    .tricks-page .bodies-header, .endo-page .bodies-header, .preserve-page .bodies-header {
       display: block; } }
 
 ul, li {
@@ -94,6 +94,9 @@ ul, li {
     border-bottom: 1px solid #000; }
   .textarea span {
     color: #8F0289; }
+  @media all and (min-width: 768px) {
+    .textarea {
+      width: 50%; } }
 
 .about-page {
   overflow-y: hidden; }
@@ -109,10 +112,17 @@ ul, li {
   position: absolute;
   left: 25%;
   top: 100%; }
+  @media all and (min-width: 768px) {
+    .endo-body {
+      left: 60%;
+      top: 30%; } }
 
 .endo .textarea {
   top: 10px;
   width: 80%; }
+  @media all and (min-width: 768px) {
+    .endo .textarea {
+      width: 50%; } }
 .endo p span {
   font-family: mesmerizelight;
   font-size: 1.2em;
@@ -276,6 +286,10 @@ ul, li {
     text-align: center;
     border-bottom: 1px solid #000;
     font-size: 0.8em; }
+  @media all and (min-width: 768px) {
+    .embalming {
+      left: 40%;
+      top: 100%; } }
 
 .preserve-body {
   background-image: url("../img/preserve-body.png");
@@ -285,6 +299,10 @@ ul, li {
   position: absolute;
   left: 25%;
   top: 180%; }
+  @media all and (min-width: 768px) {
+    .preserve-body {
+      left: 60%;
+      top: 50%; } }
 
 .preserve-page .textarea span {
   color: #eb37fb; }
