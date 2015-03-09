@@ -98,6 +98,10 @@ ul,li {
 }
 
 /*SLIDER*/ 
+
+#poll img{
+	border: 5px solid transparent;
+}
 #poll img:hover{
 	border: 5px solid #f5d522;
 	border-radius: 6px;
@@ -106,7 +110,7 @@ ul,li {
 #seduce,
 #poll{
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
 
 	.textarea{
 	  
@@ -118,9 +122,61 @@ ul,li {
 	  font-family: 'mesmerize';
 	
 		h1{
+			float: left;
 			border-bottom: 0px;
 		}
 	}
+
+	h3{
+		margin: 1em 0 5em;
+	}
+}
+
+.flex-direction-nav{
+	display: none;
+}
+
+@media screen and (min-width: 768px){
+
+	.slider{
+		background-size: 75% !important;
+		background-position: 50% 1em !important;
+		top: 0em !important;
+		background-color: transparent;
+	
+		.slides li img{
+			left: 32.5% !important;
+			top: 1.5em !important;
+			width: 34% !important;
+		}
+
+	}
+
+	.flex-direction-nav{
+		height: 2em;
+		position: relative;
+		top: 14em;
+		background: transparent;
+		display: block !important;
+
+		a{
+			height: 4em !important;
+			width: 4em !important;
+		}
+
+		.flex-prev:before{
+			content: url('../img/left.png') !important;
+		}
+
+		.flex-next:before{
+			content: url('../img/right.png')!important;
+		}
+	}
+
+}
+
+.flexslider{
+	background: transparent !important;
 }
 
 .slider{
@@ -133,10 +189,11 @@ ul,li {
 
 	.slides li{
 		position: absolute !important ;
+		background: transparent;
 		
 		img{
 		  position: relative;
-		  top: 4.5em !important;
+		  top: 1.5em;
 		}
 	}
 
@@ -199,7 +256,7 @@ ul,li {
 
 #seduce{
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
 
 	.textarea{
 	  
@@ -223,7 +280,7 @@ ul,li {
 		
 		img{
 		  position: relative;
-		  top: 4.5em !important;
+		  top: 1.5em !important;
 		}
 	}
 
