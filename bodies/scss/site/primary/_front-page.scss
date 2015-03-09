@@ -95,3 +95,9 @@ p {
 	}
 }
 
+
+.mobile-menu,.burger {
+	@media all and (min-width: 768px) { 
+		display: none;
+	}
+}
