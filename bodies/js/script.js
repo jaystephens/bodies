@@ -16,9 +16,7 @@ $('.flexslider').flexslider({
       pauseOnAction: true,
       slideDirection: "Vertical",
       slideshowSpeed: 5000,
-      prevText: "&#x276e;",
-      nextText: "&#x276f;",
-      directionNav: false,
+      directionNav: true,
       controlNav: false,
       animationDuration: 10
 });
