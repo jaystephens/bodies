@@ -88,8 +88,13 @@ ul,li {
 }
 
 /*SLIDER*/ 
+#poll img:hover{
+	border: 5px solid #f5d522;
+	border-radius: 6px;
+}
 
-#seduce{
+#seduce,
+#poll{
   height: 100vh;
   overflow: hidden;
 
