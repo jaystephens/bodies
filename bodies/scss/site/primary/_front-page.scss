@@ -43,6 +43,18 @@
     src: url(../fonts/mesmerize/mesmerize-ul.ttf);
 }
 
+@font-face {
+    font-family: mesmerizessemibold;
+    src: url(../fonts/mesmerize/mesmerize-sb.ttf);
+}
+
+
+@font-face {
+    font-family: mesmerizessemicondensed;
+    src: url(../fonts/mesmerize/mesmerize-sc-ul.ttf);
+}
+
+
 
 h2 {
 	margin: 0; 
@@ -67,7 +79,31 @@ p {
 	 background-size: cover; 
 	 width: 100vw;
 	 height: 100vh;
-	 background-position: center;   	
+	 background-position: center;
+	 @media all and (min-width: 768px) { 
+	 	display: none;
+	 }   	
+
+}
+
+.home-background-full  {
+	display: none;
+	 @media all and (min-width: 768px) { 
+	 	display: block;
+	 	position: absolute;
+	 	 background-image: url("../img/home-bg-full.png");  
+	 	 -webkit-background-size: cover;
+	 	 -o-background-size: cover; 
+	 	 background-size: cover; 
+	 	 width: 100vw;
+	 	 height: 100vh;
+	 	 top: 0;
+	 	 left: 0;
+	 	 right: 0;
+	 	 top: 0;    
+	 	 background-position: center;
+	 	
+	 }   	
 
 }
 
@@ -79,9 +115,58 @@ p {
 	 background-size: cover; 
 	 width: 100vw;
 	 height: 100vh;
-	 background-position: center;   	
+	 background-position: center;  
+	 @media all and (min-width: 768px) { 
+	 	display: none;
+	 } 	
 
 }
+
+
+.body-full  {
+	display: none;
+	
+	 @media all and (min-width: 768px) {
+	 display: block;
+	 position: absolute;
+	  background-image: url("../img/body-full.png");  
+	  -webkit-background-size: contain;
+	  -o-background-size: contain; 
+	  background-size: contain; 
+	  background-repeat: no-repeat ;
+	  width: 100%;
+	  height: 90%;
+	  background-position: center;  
+	  bottom: 0;  
+	 	
+	 } 	
+
+}
+
+
+.issue-full  {
+	display: none;
+	
+	 @media all and (min-width: 768px) {
+	 display: block;
+	 position: absolute;
+	 float: right;
+	 right: 5%; 
+	 top: 68%;  
+	  background-image: url("../img/issue-full.png");  
+	  -webkit-background-size: contain;
+	  -o-background-size: contain; 
+	  background-size: contain; 
+	  width: 214px;
+	  height: 102px;
+	  background-repeat: no-repeat ;
+	  background-position: center;   
+	 	
+	 } 	
+
+}
+
+
 
 .bodies-header{
 	h1 {
@@ -90,10 +175,10 @@ p {
 		font-family: mesmerize;
 		font-size: 5em;
 		color: #eb37fb;
-		top: -60px; 
+	top: -60px; 
+		
 		@media all and (min-width: 768px) { 
 			font-size: 7em; 
-			margin-top: -30px; 
 		}
 	}
 	h3 {
@@ -102,8 +187,130 @@ p {
 		text-align: center; 
 		font-family: mesmerize;
 		color: #470244; 
-		top: -10px; 
+		@media all and (min-width: 768px) { 
+				padding-top: 20px; 
+			}
+	}
+}
+
+.home-nav {
+	display: none;
+	@media all and (min-width: 768px) { 
+		display: block;
+		position: absolute;
+		left: 12%; 
+		float: left;
+		width: 25%; 
+		top: 50px; 
+		h2 {
+			text-align: left;
+		}
 	}
 }
 
 
+.one {
+	color: #8f0289;
+	font-size: .7em; 
+	font-family: mesmerizessemicondensed;  
+}
+.two {
+	font-family: mesmerizessemibold;
+	color: #8f0289;
+	font-size: .7em; 
+}
+
+
+.three {
+	color: #8f0289;
+	font-size: .9em; 
+	font-family: mesmerizessemicondensed;  
+	text-transform: uppercase;
+}
+
+.four {
+	font-family: Bodoni;
+	color: #eb37fb; 
+	font-size: 2em; 
+}
+
+.five {
+		font-family: mesmerizessemibold;
+	color: #eb37fb; 
+	font-size: .6em;
+	text-transform: uppercase;
+}
+
+.six {
+		font-family: mesmerizessemibold;
+	color: #eb37fb; 
+	font-size: .7em;
+	text-transform: uppercase;
+}
+
+.line {
+	width: 100px;
+	height: 1px;
+	background-color: #000;  
+	margin-top: 5px;
+	margin-bottom: 5px;   
+}
+
+.seven {
+	font-family: mesmerizessemibold;
+	color: #8f0289;
+	font-size: .5em;
+	text-transform: uppercase; 
+}
+
+.eight {
+	 font-family: mesmerizescondensed;
+	color: #eb37fb;
+	font-size: .6em;
+	text-transform: uppercase; 
+}
+
+.nine {
+	font-family: mesmerizescondensed;
+	color: #eb37fb;
+	font-size: .9em;
+	text-transform: uppercase; 
+	letter-spacing: 2px; 
+}
+
+.ten {
+	font-family: Bodoni;
+	color: #8f0289;
+	font-size: 2em; 
+}
+
+.one-one {
+	font-family: mesmerizessemibold;
+	color: #8f0289;
+	font-size: 1em; 
+	text-transform: uppercase;
+}
+
+.one-two {
+	color: #8f0289;
+	font-size: .8em;  
+	font-family: mesmerizessemicondensed;  
+	text-transform: uppercase;
+}
+
+.one-three {
+	font-family: mesmerizescondensed;
+	color: #eb37fb;
+	font-size: 1.2em;
+	text-transform: uppercase; 
+	letter-spacing: 2px; 
+}
+
+.one-four {
+	font-family: mesmerizescondensed;
+	color: #eb37fb;
+	font-size: 0.5em;
+	text-transform: uppercase; 
+	letter-spacing: 2px;
+	margin-top: -2px; 
+}
