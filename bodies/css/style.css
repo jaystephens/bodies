@@ -395,6 +395,7 @@ p {
   display: none; }
   @media all and (min-width: 768px) {
     .body-full {
+      opacity: 1;
       display: block;
       position: absolute;
       background-image: url("../img/body-full.png");
@@ -405,7 +406,38 @@ p {
       width: 100%;
       height: 90%;
       background-position: center;
-      bottom: 0; } }
+      bottom: 0;
+      -webkit-transition: 0.8s;
+      -moz-transition: 0.8s;
+      -ms-transition: 0.8s;
+      -o-transition: 0.8s;
+      transition: 0.8s; } }
+
+.body-full-overlay {
+  display: none; }
+  @media all and (min-width: 768px) {
+    .body-full-overlay {
+      opacity: 0;
+      display: block;
+      position: absolute;
+      background-image: url("../img/body-full-over.png");
+      -webkit-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 75%;
+      background-position: center;
+      bottom: 0;
+      -moz-transition: 0.8s;
+      -ms-transition: 0.8s;
+      -o-transition: 0.8s;
+      transition: 0.8s; } }
+
+.body-full-overlay:hover {
+  opacity: 1; }
+  .body-full-overlay:hover .body-full {
+    opacity: 0; }
 
 .issue-full {
   display: none; }

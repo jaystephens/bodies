@@ -38,6 +38,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/site\/primary\/_posts-and-pages.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/site\/primary\/_posts-and-pages.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/styles.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -72,6 +90,28 @@
 		"initialSize": 166990,
 		"inputAbbreviatedPath": "\/img\/about-face.png",
 		"outputAbbreviatedPath": "\/img\/about-face.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/body-full-over.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/body-full-over.png",
+		"outputAbbreviatedPath": "\/img\/body-full-over.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/body-full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/body-full.png",
+		"outputAbbreviatedPath": "\/img\/body-full.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -142,6 +182,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/home-bg-full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43337,
+		"inputAbbreviatedPath": "\/img\/home-bg-full.png",
+		"outputAbbreviatedPath": "\/img\/home-bg-full.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/home-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -149,6 +200,17 @@
 		"initialSize": 33603,
 		"inputAbbreviatedPath": "\/img\/home-bg.png",
 		"outputAbbreviatedPath": "\/img\/home-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/issue-full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24583,
+		"inputAbbreviatedPath": "\/img\/issue-full.png",
+		"outputAbbreviatedPath": "\/img\/issue-full.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
