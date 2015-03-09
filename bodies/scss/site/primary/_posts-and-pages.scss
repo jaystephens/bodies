@@ -110,7 +110,7 @@ ul,li {
 #seduce,
 #poll{
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
 
 	.textarea{
 	  
@@ -122,8 +122,13 @@ ul,li {
 	  font-family: 'mesmerize';
 	
 		h1{
+			float: left;
 			border-bottom: 0px;
 		}
+	}
+
+	h3{
+		margin: 1em 0 5em;
 	}
 }
 
@@ -136,7 +141,7 @@ ul,li {
 	.slider{
 		background-size: 75% !important;
 		background-position: 50% 1em !important;
-		top: -3em !important;
+		top: 0em !important;
 		background-color: transparent;
 	
 		.slides li img{
@@ -251,7 +256,7 @@ ul,li {
 
 #seduce{
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
 
 	.textarea{
 	  
