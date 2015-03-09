@@ -36,3 +36,30 @@
 .menu-on {
 	left: 0; 
 }
+
+
+.mobile-menu,.burger {
+	@media all and (min-width: 768px) { 
+		display: none;
+	}
+}
+
+.menu {
+	display: none;
+	ul {
+		width: 210px;
+		margin: 0 auto; 
+		margin-top: -60px; 
+		li {
+			float: left;
+			margin-left: 15px;
+			font-family: mesmerizes-ultra-lt;
+			color: #670263; 
+		}
+	}
+	@media all and (min-width: 768px) { 
+		display: inline;
+
+	}
+	
+}

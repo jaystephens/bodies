@@ -142,8 +142,16 @@ ul,li {
 
 
 .tricks-page,.preserve-page {
+	h2 {
+		padding-left: 50px; 
+		 
+	}
 	h1 {
 	padding-top: 25%; 
+	padding-left: 50px; 
+	@media all and (min-width: 768px) { 
+		padding-top: 5%; 
+	}
 	} 
 }
 
@@ -249,6 +257,21 @@ ul,li {
 }
 
 .tricks-imgs {
+	padding-top: 100px; 
+	ul {
+		@media all and (min-width: 768px) { 
+			width: 760px;
+			margin: 0 auto; 
+		 
+		}
+		li {
+
+			@media all and (min-width: 768px) { 
+				float: left;
+				margin-left: 25px; 
+				}
+		}
+	}
 	figcaption {
 		 padding-top: 230px; 
 		 text-align: center;
@@ -257,6 +280,23 @@ ul,li {
 		
 	}
 	
+}
+
+.tricks-page {
+	.bodies-header {
+		display: none;
+		h3 {
+			@media all and (min-width: 768px) { 
+				padding-top: 30px; 
+			}
+			
+		}
+		@media all and (min-width: 768px) { 
+			display: block;
+			
+
+		}
+	}
 }
 
 

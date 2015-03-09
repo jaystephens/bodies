@@ -37,6 +37,13 @@
     src: url(../fonts/mesmerize/mesmerize-ex-lt-it.ttf);
 }
 
+
+@font-face {
+    font-family: mesmerizes-ultra-lt;
+    src: url(../fonts/mesmerize/mesmerize-ul.ttf);
+}
+
+
 h2 {
 	margin: 0; 
 }
@@ -76,7 +83,7 @@ p {
 
 }
 
-.home {
+.bodies-header{
 	h1 {
 		position: relative;
 		text-align: center;
@@ -84,6 +91,10 @@ p {
 		font-size: 5em;
 		color: #eb37fb;
 		top: -60px; 
+		@media all and (min-width: 768px) { 
+			font-size: 7em; 
+			margin-top: -30px; 
+		}
 	}
 	h3 {
 		font-size: 0.5em;
@@ -96,8 +107,3 @@ p {
 }
 
 
-.mobile-menu,.burger {
-	@media all and (min-width: 768px) { 
-		display: none;
-	}
-}
